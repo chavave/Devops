@@ -12,21 +12,19 @@
   <connection>scm:git:git@github.com:chavave/Devops.git</connection>
     <developerConnection>scm:git:git@github.com:chavave/Devops.git</developerConnection>
     <url>scm:git:git@github.com:chavave/Devops.git</url>
-  <tag>devops-0.0.2</tag>
+  <tag>Devops-0.0.2</tag>
   </scm>
 
 <distributionManagement>
 	<!-- Publish the versioned snapshot here -->
 	<repository>
-		<id>devops</id>
-		<name>devops</name>
 		<url>http://localhost:8080/nexus/content/repositories/releases</url>
 	</repository>
 
 	<!-- Publish the versioned releases here -->
 	<snapshotRepository>
-		<id>devops</id>
-		<name>devops</name>
+		<id>Devops</id>
+		<name>Devops</name>
 		<url>http://localhost:8080/nexus/content/repositories/snapshots</url>
 	</snapshotRepository>
 </distributionManagement>
